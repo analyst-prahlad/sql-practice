@@ -1,6 +1,6 @@
 -- Date Functions
 
-select getdate() as Todays_date_tim
+select getdate() as Todays_date_time
 select year(getdate()) --  year
 select month(getdate()) --  month
 select day(getdate()) -- day
@@ -37,6 +37,7 @@ select dateadd(day, 3, getdate())
 select dateadd(day, 3, '2025-03-17')
 select dateadd(month, 7, getdate())
 select dateadd(year, 4, getdate())
+
 
 
 
