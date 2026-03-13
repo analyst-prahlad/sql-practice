@@ -14,7 +14,7 @@ select month('2025/06/20') --
 select isdate('apple')
 select isdate('2025/06/20')
 select isdate('04-01-2738')
-select isdate('410-362')
+ isdate('410-362')
 
 --DATENAME functions returns  a string
 select datename(weekday, '2025-03-24') -- which day
