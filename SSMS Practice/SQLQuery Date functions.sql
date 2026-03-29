@@ -1,6 +1,6 @@
 -- Date Functions
 
-select getdate() as Todays_date_time
+select getdate() as Todays_date_
 select year(getdate()) --  year
 select month(getdate()) --  month
 select day(getdate()) -- day
