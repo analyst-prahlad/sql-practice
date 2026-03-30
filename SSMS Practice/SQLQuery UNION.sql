@@ -14,6 +14,6 @@ insert into basket1
 values (1, 'Pappaya'),
        (2, 'Pinnaple') 
 
-select * from ba
+select * from basket
 union all
 select * from basket1
