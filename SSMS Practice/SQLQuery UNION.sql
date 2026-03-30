@@ -1,4 +1,4 @@
-create database fruits;
+create database 
 
 use fruits;
 
